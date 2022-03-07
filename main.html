@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styling/styling.css">
+    <link rel="stylesheet" media="screen and (max-width: 731px)" href="Styling/phone.css">
+    <title>Welcome to our Online meal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation bar -->
+     <nav id="navbar">
+         <div id="logo">
+             <img src="Images/logo.png" alt="MyOnlineMeal.com">
+         </div>
+         <ul>
+             <li class="item"><a href="#home" >Home </a></li>
+             <li class="item"><a href="#services" >Our services</a></li>
+             <li class="item"><a href="#client-section" >our clients </a></li>
+             <li class="item"><a href="#contact" >Contacts us </a></li>
+         </ul>
+     </nav>
+     <!-- Home -->
+     <section id="home">
+         <h1 class="h-primary">Welcome to MyOnlineMeal</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio possimus laboriosam libero natus, sunt perspiciatis quod laudantium inventore, saepe asperiores ullam necessitatibus ab.</p>
+         <button class="btn">Order Now</button>
+     </section>
+     <!-- Services -->
+     <h1 class="h-primary center">Our Services</h1>
+     <section id="services">
+         <div class="box">
+             <img src="./Images/cetering.jpeg" alt="">
+             <h2 class="h-secondary center">Catering</h2>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugit enim, alias doloremque ratione, vitae libero maxime necessitatibus ad rem dolore quis commodi sequi delectus nisi consequuntur ipsa est cumque officiis nemo, eveniet voluptatibus?</p>
+         </div>
+         <div class="box">
+             <img src="./Images/bulk ordering.jpeg" alt="">
+             <h2 class="h-secondary center">Bulk Order</h2>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugit enim, alias doloremque ratione, vitae libero maxime necessitatibus ad rem dolore quis commodi sequi delectus nisi consequuntur ipsa est cumque officiis nemo, eveniet voluptatibus?</p>
+         </div>
+         <div class="box">
+             <img src="./Images/food ordering.jfif" alt="">
+             <h2 class="h-secondary center">Home Delivery</h2>
+            <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugit enim, alias doloremque ratione, vitae libero maxime necessitatibus ad rem dolore quis commodi sequi delectus nisi consequuntur ipsa est cumque officiis nemo, eveniet voluptatibus?</p>
+         </div>
+     </section>
+     <!-- HOme-seciont is ended here -->
+
+     <!--Client - SEction is started  -->
+     <section id="client-section">
+         <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="./Images/microsoft.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="./Images/apple.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="./Images/skype.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="./Images/hp.png" alt="">
+            </div>
+        </div>
+     </section>
+    <!--Client section ends here  -->
+
+    <!-- contacts us section is starting from here -->
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="noaction.php">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your name:">
+                <label for="email">email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email:">
+                <label for="phone">phone Number:</label>
+                <input type="phone" name="phone" id="phone" placeholder="Enter your phone Number:">
+                <label for="message">message:</label>
+                <textarea name="message" id="message" cols="30" rows="10">Explain about your skills:</textarea>
+            </form>
+        </div>
+        
+    </section>
+        <!-- footer is starting from here -->
+        <footer class="center">
+            Copyright &copy; MyOnlineMeal.com all rights are reserved!
+        </footer>
+
+</body>
+</html>
