@@ -1,6 +1,6 @@
 # ***My-Online-Meal***
 This is Food ordering website template builded from the css. 
-## Link
+## Demo
 https://0203nilesh.github.io/My-Online-Meal/
 ## Home Page
 ![image](https://github.com/0203nilesh/My-Online-Meal/assets/95562518/83f9f24f-1cfc-4b33-8e1c-7d63f349f8e9)
